@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    font-family: 'Courier',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.home{
+    background-color: black;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column  ;
+    height: 600px;
+    color:white;
+    margin-left: 192px;
+    margin-right:192px
+}
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 460px;
+}
+.details{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    margin-left: 70px; 
+    margin-top: 100px;  
+}
+.details h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'poppins', sans-serif;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.button1{
+    background-color: #852eee;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 60px;
+    font-size:25px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px 2px rgba(0, 128, 0, 0.5); /* softer green */
+}
+.CV{
+    margin-left: 20px;
+    background-color: none;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    color: white;
+    width: 200px;
+    height: 60px;
+    font-size:25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.para{
+    width: 437px;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+.image img{
+
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 150px;
+
+   
+}
+.image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    /* margin-left: 267px; */
+    margin-top: 100px;
+    font-size: 12px;
+    margin-left: 80px;
+}
+.companies{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 90px;
+    margin-top: 50px;
+    margin-left: 55px;
+
+}
+.companies button{
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:black;
+    color:rgb(74, 72, 72);
+    border-color: grey;
+    border:none;
+    /* border:1px solid grey; */
+    border-radius: 20px;
+
+}
+.zumImage{
+    border-radius:10px; 
+    width: 260px;
+    height: 100px;
+    object-fit: cover;
+}
+.appsketchImage{
+    border-radius:10px;
+    width: 260px; 
+    height: 100px;
+    object-fit: cover;
+}
