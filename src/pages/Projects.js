@@ -52,7 +52,7 @@ const Projects = () => {
       para: "A fully responsive Netflix UI clone developed using React.js. It features a homepage with movie thumbnails, hover effects, and a banner section. The layout mimics Netflix’s streaming interface for an immersive user experience.",
       button1: "",
       button2: "Live",
-      github: "https://github.com/shams220/gemini",
+      github: "https://github.com/shams220/Netflix",
       live: "https://vocal-monstera-070a58.netlify.app/",
     },
    {
