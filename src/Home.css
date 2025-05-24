@@ -22,6 +22,16 @@
     width: 100%;
     height: 460px;
 }
+.nameHome{
+    display: flex;
+    
+}
+.name1{
+    color:#852eee ;
+}
+.name2{
+    color: rgb(222, 222, 87);
+}
 .details{
     width: 50%;
     display: flex;
@@ -29,7 +39,7 @@
     flex-direction: column;
     align-items: flex-start;
     color: white;
-    margin-left: 70px; 
+        margin-left: -28px;
     margin-top: 100px;  
 }
 .details h1{
@@ -53,6 +63,14 @@
     cursor: pointer;
     box-shadow: 0 4px 12px 2px rgba(0, 128, 0, 0.5); /* softer green */
 }
+.button1:hover{
+    background-color: white;
+    color: black;
+    transition: ease-out 0.3s;
+    box-shadow: 0 4px 12px 8px rgba(205, 221, 30, 0.5);
+    transition: ease-out, 1s;
+    
+}
 .CV{
     margin-left: 20px;
     background-color: none;
@@ -65,6 +83,11 @@
     font-size:25px;
     border-radius: 10px;
     cursor: pointer;
+}
+.CV:hover{
+    background-color: Yellow;
+    color: black;
+    transition: ease-out 0.3s;
 }
 .para{
     width: 437px;
@@ -81,16 +104,18 @@
 
    
 }
-.image{
+.imageMain{
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: end;
+    height: 497px;
 }
 .image-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 130px;
 }
 .work{
     display: flex;

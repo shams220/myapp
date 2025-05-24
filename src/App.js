@@ -7,7 +7,7 @@ import About from './pages/about.js';
 import Contact from "./pages/Contact.js";
 import Skills from './pages/Skills.js'
 import Projects from "./pages/Projects.js";
-
+import ScrollToTopButton from "./ScrollToTopButton";
 function App() {
   return (
     <div className="App">
@@ -22,13 +22,15 @@ function App() {
       <Projects/>
       <Contact/>
     </>} />
+    {/* <Route path="/About" element={<About/>}  />
+    <Route path='/Projects' element={<Projects/>} />
           <Route path="/contact" element={<Contact />} />
           {/* <Route path='/' element={<About/>}/> */}
-        </Routes>
+        </Routes> 
     
 
         {/* <Projects/> */}
-        
+         <ScrollToTopButton />
       </Router>
     </div>
   );

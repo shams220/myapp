@@ -1,6 +1,13 @@
 body{
     background-color: black;
 }
+.navbarHalf{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+}
 .navbar{
     background-color: black;
     color: white;
@@ -10,6 +17,10 @@ body{
   
    
 }
+.navbar a {
+  text-decoration: none;
+  color: inherit; /* optional: keeps your text color consistent */
+}
 .container{
     display: flex;
     justify-content: center;
@@ -18,10 +29,28 @@ body{
     
     width: 80%;
    border-radius: 0 0 10px 10px;
+   height: 80px;
+
 }
 .bar a{
  text-decoration: none;
  color: white;
+}
+.Home:hover{
+    color: yellow;
+    transition: ease-out, 0.3s;
+}
+.About:hover{
+    color: yellow;
+    transition: ease-out, 0.3s;
+}
+.Contact:hover{
+    color: yellow;
+    transition: ease-out, 0.3s;
+}
+.Projects:hover{
+    color: yellow;
+    transition: ease-out, 0.3s;
 }
 .bar{
     display: flex;

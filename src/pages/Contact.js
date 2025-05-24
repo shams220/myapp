@@ -1,0 +1,50 @@
+import React from 'react'
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import './Contact.css'
+const Contact = () => {
+  return (
+    <div id="Contact">
+      <div className='contactContainer'>
+
+    <div className="contactInfo">
+            <div className="name"><h1>Shams's </h1>
+            <h1 className='portfolio'>Portfolio</h1></div>
+      <h2>alamshams8374@gmail.com</h2>
+      <h2>+91 8273443412</h2>
+       <div className="social">
+          <a
+            href="https://github.com/yourusername"
+            className="navLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size={20} />
+          </a>
+          <a
+            href="https://linkedin.com/in/yourusername"
+            className="navLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin size={20} />
+          </a>
+          <a
+            href="https://twitter.com/yourusername"
+            className="navLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter size={20} />
+          </a>
+        </div>
+      <h2 className='madeWithLove'>made with 💟 By Shams</h2>
+      <h3>Copyright c 2024 All Rights Reserved</h3>
+    </div>
+    
+    
+    </div>
+    </div>
+  )
+}
+
+export default Contact;

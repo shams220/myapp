@@ -1,0 +1,37 @@
+.Skillsmain{
+    color:'white';
+    margin: 10%;
+}
+
+.Skillsmain h1{
+    margin-bottom: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.skillContainer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;  
+}
+.skillContainer img{
+    width: 120px;
+    height:120px;
+    object-fit: cover;
+    gap: 40px;
+    margin: 20px;
+    
+    
+}
+.one{
+    object-fit: fill;
+}
+.one img:hover{
+    
+    box-shadow: 0 4px 12px 8px rgba(205, 221, 30, 0.5);
+    transition: ease-out, 1s;
+}
