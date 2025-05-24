@@ -4,7 +4,7 @@ import Home from "./pages/Home.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./pages/Navbar.js";
 import About from './pages/about.js';
-import Contact from "./pages/contact.js";
+import Contact from "./pages/Contact.js";
 import Skills from './pages/Skills.js'
 import Projects from "./pages/Projects.js";
 
@@ -20,6 +20,7 @@ function App() {
       <About />
       <Skills/>
       <Projects/>
+      <Contact/>
     </>} />
           <Route path="/contact" element={<Contact />} />
           {/* <Route path='/' element={<About/>}/> */}
