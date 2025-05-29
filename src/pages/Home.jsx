@@ -16,8 +16,7 @@ const home = () => {
           </div>
           <div className="para">
             <p>
-              Intro text: Lorem ipsum dolor sit arnet, consectetur adipiscing
-              elit, sed do eicsmod tempor incididunt ut labore et
+              I'am a Mern Stack Developer
             </p>
           </div>
           <div className="buttons">

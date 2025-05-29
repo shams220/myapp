@@ -13,7 +13,7 @@ const Contact = () => {
       <h2>+91 8273443412</h2>
        <div className="social">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/shams220"
             className="navLink"
             target="_blank"
             rel="noopener noreferrer"
@@ -21,7 +21,7 @@ const Contact = () => {
             <FaGithub size={20} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/shams-alam22/"
             className="navLink"
             target="_blank"
             rel="noopener noreferrer"
@@ -29,7 +29,7 @@ const Contact = () => {
             <FaLinkedin size={20} />
           </a>
           <a
-            href="https://twitter.com/yourusername"
+            href="https://x.com/shamsal00256049"
             className="navLink"
             target="_blank"
             rel="noopener noreferrer"
