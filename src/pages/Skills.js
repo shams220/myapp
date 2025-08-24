@@ -12,6 +12,8 @@ import MySql from '../assets/skills/MySQL.png'
 import SQL from '../assets/skills/Azure SQL Database.png'
 import github from '../assets/skills/GitHub.png'
 import java from '../assets/skills/Java.png'
+import AnimatedContent from '../src/components/Animations/AnimatedContent/AnimatedContent'
+import FadeContent from '../src/components/Animations/FadeContent/FadeContent'
 
 
 const Skills = () => {
@@ -20,7 +22,9 @@ const Skills = () => {
   <div id="Skills">
      <div className="Skillsmain">
     <div><h1>Skills</h1></div>
-      <div className='skillContainer'>
+      <FadeContent>
+        <AnimatedContent>
+          <div className='skillContainer'>
           <div className="one"><img src={html} alt="" /></div>
         <div className="one"><img src={css} alt="" /></div>
         <div className="one"><img src={js} alt="" /></div>
@@ -36,6 +40,8 @@ const Skills = () => {
         {/* <div className="ten"><img src={SQL} alt="" /></div> */}
 
       </div>
+        </AnimatedContent>
+      </FadeContent>
    </div>
   </div>
   </>

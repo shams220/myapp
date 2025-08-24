@@ -7,6 +7,8 @@ import gemini from "../assets/projects/GeminiClone.png";
 import netflix from "../assets/projects/NetflixClone.png";
 
 import React from "react";
+import FadeContent from "../src/components/Animations/FadeContent/FadeContent";
+import AnimatedContent from "../src/components/Animations/AnimatedContent/AnimatedContent";
 
 const Projects = () => {
   const data = [
@@ -71,7 +73,9 @@ const Projects = () => {
 
   return (
     <>
-      <div id="Projects">
+     <FadeContent>
+      <AnimatedContent>
+         <div id="Projects">
         <div className="headline">
         <h1>Projects</h1>
       </div>
@@ -154,6 +158,8 @@ const Projects = () => {
         })}
       </div>
       </div>
+      </AnimatedContent>
+     </FadeContent>
     </>
   );
 };

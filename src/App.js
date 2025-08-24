@@ -8,10 +8,13 @@ import Contact from "./pages/Contact.js";
 import Skills from './pages/Skills.js'
 import Projects from "./pages/Projects.js";
 import ScrollToTopButton from "./ScrollToTopButton";
+import AuroraBack from './src/components/Backgrounds/Aurora/AuroraBackound.js'
 function App() {
   return (
     <div className="App">
       <Router>
+<AuroraBack/>
+
         <Navbar />
       
         <Routes>

@@ -1,9 +1,13 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import './Contact.css'
+import FadeContent from '../src/components/Animations/FadeContent/FadeContent';
+import AnimatedContent from '../src/components/Animations/AnimatedContent/AnimatedContent';
 const Contact = () => {
   return (
-    <div id="Contact">
+    <FadeContent>
+      <AnimatedContent>
+        <div id="Contact">
       <div className='contactContainer'>
 
     <div className="contactInfo">
@@ -44,6 +48,8 @@ const Contact = () => {
     
     </div>
     </div>
+      </AnimatedContent>
+    </FadeContent>
   )
 }
 

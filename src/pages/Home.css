@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    font-family: 'Courier', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+/* .aurora-container canvas{
+  
+   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(-45deg, #1d1f21, #282c34, #20232a, #0d0d0d);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite; */
+  /* z-index: -1; */
+
+/* } */ 
+/* canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+} */
+/* @media(min-width:360px){
+    #Home{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .home {
+    background-color: black;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    height: 600px;
+    color: rgb(235, 229, 229); 
+     margin-left: 192px;
+    margin-right:192px ;
+     width: min(100% - 32px, 1200px);
+    margin-inline: auto; 
+    top: 100%;
+
+}
+
+.home-container {
+    display: flex;
+   justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 63rem;
+    margin-top: 2rem;
+    flex-direction: column-reverse; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nameHome {
+    display: flex;
+
+}
+
+.name1 {
+    color: #852eee;
+}
+
+.name2 {
+    color: rgb(222, 222, 87);
+}
+
+.details {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    margin-left: -28px;
+    margin-top: 100px;
+}
+
+.details h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.button1 {
+    background-color: #852eee;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px 2px rgba(0, 128, 0, 0.5);
+ 
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+    transition: ease-out 0.3s;
+    box-shadow: 0 4px 12px 8px rgba(205, 221, 30, 0.5);
+    transition: ease-out, 1s;
+
+}
+
+.CV {
+    margin-left: 20px;
+    background-color: none;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    color: white;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.CV:hover {
+    background-color: Yellow;
+    color: black;
+    transition: ease-out 0.3s;
+}
+
+.para {
+    width: 437px;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+
+.image img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+    height: 440px;
+    margin-top: 150px;
+    width: clamp(28rem, 40vw, 440px);
+    height: auto;
+    border-radius: 500px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+
+
+
+}
+
+.imageMain {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 497px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+}
+
+.wrkedWith {
+    font-family: 'poppins', sans-serif
+}
+
+.work {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    margin-left: 267px;
+    margin-top: 100px;
+    font-size: 12px;
+    margin-left: 80px; 
+}
+
+.companies {
+     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 90px;
+    margin-top: 50px;
+    margin-left: 55px;
+
+}
+
+.companies button {
+     font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: rgb(74, 72, 72);
+    border-color: grey;
+    border: none; 
+    border:1px solid grey;
+    border-radius: 20px;
+
+}
+
+.zumImage {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.appsketchImage {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+} */
+
+
+
+
+    .home {
+        background-color: none;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        color: rgb(235, 229, 229);
+        /* margin-left: 192px;
+    margin-right:192px */
+        width: min(100% - 32px, 1200px);
+        margin-inline: auto;
+
+    }
+
+    .home-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 460px;
+        margin-top: 2rem;
+    }
+
+    .nameHome {
+        display: flex;
+
+    }
+
+    .name1 {
+        color: #852eee;
+    }
+
+    .name2 {
+        color: rgb(222, 222, 87);
+    }
+
+    .details {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+        margin-left: -28px;
+        margin-top: 100px;
+    }
+
+    .details h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-family: 'poppins', sans-serif;
+    }
+
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .button1 {
+        background-color: #852eee;
+        border: none;
+        color: white;
+        width: 200px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0 4px 12px 2px rgba(0, 128, 0, 0.5);
+        /* softer green */
+    }
+
+    .button1:hover {
+        background-color: white;
+        color: black;
+        transition: ease-out 0.3s;
+        box-shadow: 0 4px 12px 8px rgba(205, 221, 30, 0.5);
+        transition: ease-out, 1s;
+
+    }
+
+    .CV {
+        margin-left: 20px;
+        background-color: none;
+        border-color: white;
+        background-color: transparent;
+        color: white;
+        color: white;
+        width: 200px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .CV:hover {
+        background-color: Yellow;
+        color: black;
+        transition: ease-out 0.3s;
+    }
+
+    .para {
+        width: 437px;
+        font-size: larger;
+        margin-bottom: 50px;
+    }
+
+    .image img {
+
+        width: 440px;
+        height: 440px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: 150px;
+
+
+    }
+
+    .imageMain {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 497px;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 130px;
+    }
+
+    .wrkedWith {
+        font-family: 'poppins', sans-serif
+    }
+
+    .work {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: white;
+        /* margin-left: 267px; */
+        margin-top: 100px;
+        font-size: 12px;
+        margin-left: 80px;
+    }
+
+    .companies {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 90px;
+        margin-top: 50px;
+        margin-left: 55px;
+
+    }
+
+    .companies button {
+        font-family: 'poppins', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: black;
+        color: rgb(74, 72, 72);
+        border-color: grey;
+        border: none;
+        /* border:1px solid grey; */
+        border-radius: 20px;
+
+    }
+
+    .zumImage {
+        border-radius: 10px;
+        width: 260px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .appsketchImage {
+        border-radius: 10px;
+        width: 260px;
+        height: 100px;
+        object-fit: cover;
+    }
+
